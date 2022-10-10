@@ -1,6 +1,5 @@
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton  # for reply keyboard (sends message)
-from time import sleep
 from bot_key import KEY
 
 bot = Bot(token=KEY)
